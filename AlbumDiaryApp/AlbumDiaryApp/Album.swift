@@ -16,5 +16,5 @@ struct Album : Hashable{
     let rating : String
 }
 var albums : [Album] = [
-//    Album(artist:"Troye Sivan", albumName: "Something To Give Each Other", year: "2023", image: "", genre: "Indie Pop")
+    Album(artist:"Troye Sivan", albumName: "Bloom", year: "2018",  genre: "Indie Pop", image: UIImage(named: "Bloom")!, rating: "8")
 ]

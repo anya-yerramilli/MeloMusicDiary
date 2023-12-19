@@ -20,11 +20,16 @@ struct FavAlbumView  : View {
             Text(albumPick.albumName)
                 .font(.title2)
                 .bold()
+                .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
             Text(albumPick.artist)
                 .font(.title3)
+                .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
             Text("(\(String(albumPick.year)))")
-        }.background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
-        .navigationTitle("Album Details")
+                .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
+//        .navigationTitle("Album Details")
     }
 }
 

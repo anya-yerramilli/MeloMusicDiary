@@ -13,6 +13,11 @@ struct AlbumListView : View {
     
     var body: some View {
         VStack{
+            Text("Your Album List")
+                .font(.title)
+                .bold()
+                .monospaced()
+                .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
             List(albums, id: \.self)
             {
                 album in
@@ -20,11 +25,14 @@ struct AlbumListView : View {
                     FavAlbumView(albumPick: album)
                 } label: {
                     albumInfoRow(album: album)
-                }
-            }.navigationTitle("Your Favorite Albums")
+                }.listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
+            }
+            .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
+            .scrollContentBackground(.hidden)
         }
-//        .frame(maxWidth: .infinity, maxHeight: .infinity)
-//            .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
+
     }
     
     private func albumInfoRow(album:Album) -> some View {
@@ -36,13 +44,15 @@ struct AlbumListView : View {
             
             
             VStack(alignment:.leading){
-                Text(album.artist)
-                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Text(album.albumName)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                    .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
+                Text(album.artist)
                     .fontWeight(.medium)
-                    .italic()
+                    .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                 
                 Text("(\(String(album.year)))")
+                    .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
             }
         }
         

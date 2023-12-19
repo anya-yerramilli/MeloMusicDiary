@@ -25,9 +25,7 @@ struct AddAlbumView  : View {
     
     
     var body : some View {
-        VStack {
-            
-        }
+
         NavigationStack{
             // Ghost navigation link that depnds on state of action
             // Deprecated syntax
@@ -37,6 +35,11 @@ struct AddAlbumView  : View {
             }
             
             VStack{
+                Text("Add Album Details")
+                    .font(.title)
+                    .bold()
+                    .monospaced()
+                    .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                     Form{
                         Section{
                             uploadImageButton
@@ -58,31 +61,38 @@ struct AddAlbumView  : View {
                                     .listRowSeparator(.hidden)
                             }
                         }
-                        Section(header: Text("Album Information")){
+                        .listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
+                        
+                        Section{
                             TextField("Album Name",text: $albumName )
                             TextField("Artist Name", text: $artistName)
                             TextField("Year Released",text: $year )
                             TextField("Genre",text: $genre )
                             
-                        }.navigationTitle("Album Info")
+                        }.listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
                         
                         Picker("Rating", selection: $selectedRating) {
-                                        ForEach(ratings, id: \.self) {
-                                            Text($0)
-                                                .foregroundStyle(.gray)
-                                        }
-                                    }
-                                    .pickerStyle(.menu)
+                            ForEach(ratings, id: \.self) {
+                                Text($0)
+                            }
+                        }
+                        .pickerStyle(.menu)
+                        .listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
                         
                         
                         Section{
                             submitButton
                                 .frame(maxWidth: .infinity, alignment: .center)
                         }
+                        .listRowBackground(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
+                        .ignoresSafeArea()
                     }
+                    .scrollContentBackground(.hidden)
             }
-            .navigationTitle("Add an Album")
+            .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
     }
     
 
@@ -105,6 +115,7 @@ struct AddAlbumView  : View {
             
         } label : {
             Text("Submit")
+                .foregroundStyle(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
         }
     }
     
