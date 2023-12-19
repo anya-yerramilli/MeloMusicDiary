@@ -22,7 +22,7 @@ struct AlbumListView : View {
             {
                 album in
                 NavigationLink {
-                    FavAlbumView(albumPick: album)
+                    FavAlbumView(albumPick: album, notes: "")
                 } label: {
                     albumInfoRow(album: album)
                 }.listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))

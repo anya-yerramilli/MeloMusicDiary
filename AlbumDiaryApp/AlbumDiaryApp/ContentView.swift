@@ -5,12 +5,14 @@
 //  Created by Anya on 11/15/23.
 //
 
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
             NavigationStack {
                 VStack(){
+                    Spacer()
                     Text("Melo.")
                         .font(.largeTitle)
                         .bold()
@@ -49,33 +51,18 @@ struct ContentView: View {
                     } label: {
                         addAlbumButton
                     }
+                    Spacer()
                     
-        
+                    Text("Powered by Spotify ©")
+                        .font(.subheadline)
+                        .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
+                        .padding(.bottom, 30)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
             }
         
        }
-   // }
-    
-//    private var profileView: some View {
-//        VStack{
-//            //Form{
-//            Image("profile")
-//                .resizable()
-//                .frame(width: 200, height: 200)
-//                .padding(.bottom)
-//                Group{
-//                    Text("Kamisato Ayaka")
-//                        .bold()
-//                        .font(.title)
-//                    Text("Kyoto, Japan")
-//                    
-//                }.font(.title2)
-//           // }
-//        }
-//    }
     
     private var viewAlbumsButton: some View {
         Text("My List")
@@ -86,7 +73,7 @@ struct ContentView: View {
     }
     
     private var addAlbumButton : some View {
-        Text("Add Album")
+        Text("Add Entry")
             .foregroundStyle(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
             .padding(EdgeInsets(top:10,leading:20, bottom:10, trailing: 20 ))
             .background(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
