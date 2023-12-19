@@ -37,8 +37,6 @@ struct AddAlbumView  : View {
             VStack{
                 Text("Add Album Details")
                     .font(.title)
-                    .bold()
-                    .monospaced()
                     .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                     Form{
                         Section{
@@ -53,7 +51,7 @@ struct AddAlbumView  : View {
                                     .listRowSeparator(.hidden)
                                 
                             } else {
-                                Image("")
+                                Image("DefaultAlbum")
                                     .resizable()
                                     .frame(width:300, height:300, alignment: .center)
                                     .padding(.leading, 7)
@@ -125,7 +123,8 @@ struct AddAlbumView  : View {
             maxSelectionCount: 1,
             matching: .images
         ){
-            Text("+ Edit Album Cover ")
+            Image(systemName: "pencil")
+                .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
         }.onChange(of: selectedPhotos){ _ in
             guard let photo = selectedPhotos.first else {
                 return
@@ -151,6 +150,6 @@ struct AddAlbumView  : View {
 
 
 #Preview {
-    AddAlbumView(albumName: "", artistName: "", year: "", image: "", genre:"", selectedRating: "")
+    AddAlbumView(albumName: "", artistName: "", year: "", image: "", genre:"", selectedRating: "0")
 }
 

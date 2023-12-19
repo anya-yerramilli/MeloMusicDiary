@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0028D65A2B316D2B00FF6091 /* SongListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028D6592B316D2B00FF6091 /* SongListView.swift */; };
+		0028D65C2B316D3900FF6091 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028D65B2B316D3900FF6091 /* Song.swift */; };
 		B1C267062B0DCA0A0041757D /* AlbumDiaryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C267052B0DCA0A0041757D /* AlbumDiaryAppApp.swift */; };
 		B1C267082B0DCA0A0041757D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C267072B0DCA0A0041757D /* ContentView.swift */; };
 		B1C2670A2B0DCA0B0041757D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C267092B0DCA0B0041757D /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0028D6592B316D2B00FF6091 /* SongListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongListView.swift; sourceTree = "<group>"; };
+		0028D65B2B316D3900FF6091 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		B1C267022B0DCA0A0041757D /* AlbumDiaryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumDiaryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C267052B0DCA0A0041757D /* AlbumDiaryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDiaryAppApp.swift; sourceTree = "<group>"; };
 		B1C267072B0DCA0A0041757D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				B1C267312B0DCA400041757D /* Album.swift */,
 				B1C267332B0DCA5E0041757D /* AlbumListView.swift */,
 				B1C267352B0DCA800041757D /* FavAlbumView.swift */,
+				0028D6592B316D2B00FF6091 /* SongListView.swift */,
+				0028D65B2B316D3900FF6091 /* Song.swift */,
 			);
 			path = AlbumDiaryApp;
 			sourceTree = "<group>";
@@ -273,7 +279,9 @@
 				B1C267082B0DCA0A0041757D /* ContentView.swift in Sources */,
 				B1C267362B0DCA800041757D /* FavAlbumView.swift in Sources */,
 				B1C267062B0DCA0A0041757D /* AlbumDiaryAppApp.swift in Sources */,
+				0028D65C2B316D3900FF6091 /* Song.swift in Sources */,
 				B1C267322B0DCA400041757D /* Album.swift in Sources */,
+				0028D65A2B316D2B00FF6091 /* SongListView.swift in Sources */,
 				B1C267342B0DCA5E0041757D /* AlbumListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

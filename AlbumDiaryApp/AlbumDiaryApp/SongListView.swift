@@ -1,13 +1,15 @@
 //
-//  AlbumListView.swift
-//  swiftui-demo
+//  SongListView.swift
+//  AlbumDiaryApp
 //
-//  Created by Anya on 11/15/23.
+//  Created by Anya Yerramilli on 12/18/23.
 //
+
+import Foundation
 
 import SwiftUI
 
-struct AlbumListView : View {
+struct SongListView : View {
     
     //var chosenAlbum : Album
     
@@ -18,7 +20,7 @@ struct AlbumListView : View {
                 Text("Albums")
                 .padding(10)
                 .bold()
-                .background(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
+                .background(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
                 .foregroundColor(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
                 .cornerRadius(0)
 //                .cornerRadius(10)
@@ -26,7 +28,7 @@ struct AlbumListView : View {
                 Text("Songs")
                     .bold()
                     .padding(10)
-                    .background(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
+                    .background(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                     .foregroundColor(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
                     .cornerRadius(0)
             }.padding(.bottom)
@@ -34,7 +36,7 @@ struct AlbumListView : View {
             
             VStack{
                 HStack {
-                    Text("Album List")
+                    Text("Songs List")
                         .font(.title)
                         .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                         .padding(.leading, 30)
@@ -47,20 +49,21 @@ struct AlbumListView : View {
                     .padding(.trailing, 30)
                 }
                 HStack{
-                    Text("Your favorite albums...")
+                    Text("Your favorite songs...")
                         .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                         .font(.subheadline)
                         .padding(.leading, 30)
                     Spacer()
                 }
             }
-            List(albums, id: \.self)
+            List(songs, id: \.self)
             {
-                album in
+                song in
                 NavigationLink {
-                    FavAlbumView(albumPick: album, notes: "")
+                    //FavAlbumView(albumPick: song, notes: "")
+                    ContentView()
                 } label: {
-                    albumInfoRow(album: album)
+                    songInfoRow(song: song)
                 }.listRowBackground(Color(red:0.94705882352, green: 0.84901960784, blue:0.94705882352))
             }
             .background(Color(red:0.84705882352, green: 0.74901960784, blue:0.84705882352))
@@ -71,23 +74,18 @@ struct AlbumListView : View {
 
     }
     
-    private func albumInfoRow(album:Album) -> some View {
+    private func songInfoRow(song:Song) -> some View {
         HStack{
-            
-            Image(uiImage: album.image)
-                .resizable()
-                .frame(width:100, height:100)
-            
-            
+        
             VStack(alignment:.leading){
-                Text(album.albumName)
+                Text(song.songName)
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
-                Text(album.artist)
+                Text(song.artist)
                     .fontWeight(.medium)
                     .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
                 
-                Text("(\(String(album.year)))")
+                Text("(\(String(song.year)))")
                     .foregroundStyle(Color(red: 0.09803921568, green: 0.09803921568, blue: 0.43921568627))
             }
         }
@@ -96,6 +94,6 @@ struct AlbumListView : View {
 }
 
 #Preview {
-    AlbumListView()
+    SongListView()
 }
 
