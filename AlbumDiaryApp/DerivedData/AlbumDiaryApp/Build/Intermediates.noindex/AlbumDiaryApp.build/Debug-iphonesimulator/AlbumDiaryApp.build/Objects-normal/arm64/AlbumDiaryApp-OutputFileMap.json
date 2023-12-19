@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master.dia",
+    "emit-module-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master.swiftdeps"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AddAlbumView.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AddAlbumView~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/Album.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/Album~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumDiaryAppApp.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryAppApp~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumListView.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/AlbumListView~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/ContentView.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/FavAlbumView.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/FavAlbumView~partial.swiftmodule"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

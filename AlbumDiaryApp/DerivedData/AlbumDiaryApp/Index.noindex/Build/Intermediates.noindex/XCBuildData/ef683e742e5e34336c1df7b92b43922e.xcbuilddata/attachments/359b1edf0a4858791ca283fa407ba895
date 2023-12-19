@@ -1,0 +1,30 @@
+{
+  "" : {
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master.dia",
+    "emit-module-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/Objects-normal/arm64/AlbumDiaryApp-master.swiftdeps"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AddAlbumView.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/Album.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumDiaryAppApp.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumListView.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/ContentView.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/FavAlbumView.swift" : {
+
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  }
+}

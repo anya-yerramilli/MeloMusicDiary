@@ -1,0 +1,12 @@
+{
+  "" : {
+    "dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryAppTests.build/Objects-normal/arm64/AlbumDiaryAppTests-master.d",
+    "diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryAppTests.build/Objects-normal/arm64/AlbumDiaryAppTests-master.dia",
+    "emit-module-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryAppTests.build/Objects-normal/arm64/AlbumDiaryAppTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryAppTests.build/Objects-normal/arm64/AlbumDiaryAppTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphoneos/AlbumDiaryAppTests.build/Objects-normal/arm64/AlbumDiaryAppTests-master.swiftdeps"
+  },
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryAppTests/AlbumDiaryAppTests.swift" : {
+
+  }
+}

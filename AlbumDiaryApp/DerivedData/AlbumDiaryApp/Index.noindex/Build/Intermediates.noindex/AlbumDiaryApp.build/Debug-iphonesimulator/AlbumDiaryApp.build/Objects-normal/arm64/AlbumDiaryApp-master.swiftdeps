@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "b26ff7fb5ffd4b0e32b4fd7302c8a639087ba0eec632b53ef42ead93b999f3eb"
+build_start_time: [1702842792, 84760000]
+build_end_time: [1702842792, 122332000]
+inputs:
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AddAlbumView.swift": !dirty [1702842434, 566079198]
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/Album.swift": !dirty [1702842164, 153057020]
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumDiaryAppApp.swift": !dirty [1700631178, 597356519]
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/AlbumListView.swift": !dirty [1700637564, 577179729]
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/ContentView.swift": !dirty [1702842450, 628995717]
+  "/Users/anyayerramilli/Projects/AlbumDiaryApp/AlbumDiaryApp/FavAlbumView.swift": !dirty [1700631748, 259447666]
+  ? "/Users/anyayerramilli/Projects/AlbumDiaryApp/DerivedData/AlbumDiaryApp/Index.noindex/Build/Intermediates.noindex/AlbumDiaryApp.build/Debug-iphonesimulator/AlbumDiaryApp.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1702842791, 823869147]

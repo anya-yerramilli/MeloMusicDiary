@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'AlbumDiaryAppUITests' in project 'AlbumDiaryApp' (no dependencies)
+Target 'AlbumDiaryAppUITests' in project 'AlbumDiaryApp'
+➜ Explicit dependency on target 'AlbumDiaryApp' in project 'AlbumDiaryApp'
+Target 'AlbumDiaryAppUITests' in project 'AlbumDiaryApp'
+➜ Explicit dependency on target 'AlbumDiaryApp' in project 'AlbumDiaryApp'
+Target 'AlbumDiaryAppTests' in project 'AlbumDiaryApp' (no dependencies)
+Target 'AlbumDiaryAppTests' in project 'AlbumDiaryApp'
+➜ Explicit dependency on target 'AlbumDiaryApp' in project 'AlbumDiaryApp'
+Target 'AlbumDiaryAppTests' in project 'AlbumDiaryApp'
+➜ Explicit dependency on target 'AlbumDiaryApp' in project 'AlbumDiaryApp'
+Target 'AlbumDiaryApp' in project 'AlbumDiaryApp' (no dependencies)
+Target 'AlbumDiaryApp' in project 'AlbumDiaryApp' (no dependencies)
